@@ -47,3 +47,12 @@ Biało-czarny interfejs z naturalną fotografią. Lżejszy krój Libre Caslon Di
 
 Karuzela startuje automatycznie co 4 sekundy. Najechanie myszą i fokus nie zatrzymują jej; użytkownik może użyć przycisku pauzy. Ograniczony ruch wyłącza płynną animację przejścia, zachowując zmianę slajdów. Sprawdzono automatyczne przesuwanie, ręczną pauzę, zawijanie, PL/EN, brak wysyłki formularza oraz czarno-białą paletę CSS. Układ nadal nie był wizualnie sprawdzony w przeglądarce.
 
+
+## Wersja 6 — podstrony
+
+Karuzela porusza się ciągle od pierwszej klatki, przez requestAnimationFrame; nie zależy od IntersectionObserver ani interwału. Jest przycisk pauzy i strzałki. Oferta podświetla tylko obrys i ma odstęp przed ogrodem. Woda bez przycisku zatrzymania, animowana stale. Dlaczego TERREN zastąpiło sekcję materiałów.
+
+Wstępne podstrony: projekty.html, projekt.html?id=0..4, oferta.html, studio.html, kontakt.html, inspiracje.html i artykul.html?id=0..2. Wspólne menu i PL/EN. Projekty to oznaczone koncepcje do zastąpienia listą realizacji właściciela. Inspiracje to teksty demonstracyjne. Formularz nie wysyła danych.
+
+Testy: node checks/site.mjs. Sprawdzają ruch ciągły bez interakcji, pauzę, zawijanie karuzeli, teksty PL/EN, pliki i linki podstron oraz brak wysyłki formularza. Kontrola wizualna nadal nie była przeprowadzona.
+

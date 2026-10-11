@@ -1,1 +1,11 @@
-{"name":"terren","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"node server.mjs","start":"node server.mjs","check":"node --check dist/app.js"}}
+{
+  "name": "terren",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check dist/app.js && node --check dist/common.js && node checks/site.mjs"
+  }
+}
