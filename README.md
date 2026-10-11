@@ -40,3 +40,10 @@ Formularz demonstracyjny zgodnie z poleceniem właściciela: nie wysyła ani nie
 
 Prompt nowego obrazu, ImageGen: włoski ogród, duża pusta tafla wody w dolnych 60% kadru, cyprysy i oliwki przy górnej krawędzi, ciepły kamienny pawilon, naturalne popołudniowe światło, bez ludzi i tekstu. Plik: dist/assets/water-garden.jpg.
 
+
+## Wersja 5
+
+Biało-czarny interfejs z naturalną fotografią. Lżejszy krój Libre Caslon Display jako przybliżenie Adobe Caslon Pro oraz DM Sans jako przybliżenie Euclid. Własne licencjonowane fonty referencji nadal nie są osadzone. Większe O studiu, jednolity czarny tekst i roboczy rok 2016 w treści. Oferta jako białe i jasnoszare poziome pasy, z czarnym stanem hover. Przerywnik pełnej szerokości, spokojniejsza typografia. Sekcja materiałów oraz niski kadr ogrodu przed formularzem.
+
+Karuzela startuje automatycznie co 4 sekundy. Najechanie myszą i fokus nie zatrzymują jej; użytkownik może użyć przycisku pauzy. Ograniczony ruch wyłącza płynną animację przejścia, zachowując zmianę slajdów. Sprawdzono automatyczne przesuwanie, ręczną pauzę, zawijanie, PL/EN, brak wysyłki formularza oraz czarno-białą paletę CSS. Układ nadal nie był wizualnie sprawdzony w przeglądarce.
+
