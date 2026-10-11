@@ -1,30 +1,28 @@
 # TERREN
 
-Strona główna autorskiej pracowni projektowania ogrodów. Polski i angielski, responsywny układ, okna koncepcji, mobilne menu, zapis briefu jako pliku tekstowego.
+Dwa pierwsze ekrany strony pracowni architektury krajobrazu. Hero z włoskim ogrodem i centralnym logo; karuzela z trzema kwadratowymi kadrami, nazwami miast i krótkimi opisami. Wersje PL/EN.
 
-## Uruchomienie
+## Podgląd lokalny
 
-Wymagany Node.js. Bez instalacji zależności:
+Node.js, bez dodatkowych zależności:
 
 ```sh
 npm run dev
 ```
 
-Otwórz http://127.0.0.1:4173. Gotowe pliki strony znajdują się w `dist/`.
+http://127.0.0.1:4173 — gotowe pliki strony w `dist/`.
 
-## Treści i materiały
+## Materiały
 
-- Logo dostarczone przez właściciela projektu, zachowane w oryginalnym pliku PNG.
-- Trzy obrazy koncepcyjne wygenerowane przez wbudowane ImageGen. Nie przedstawiają wykonanych realizacji. Informacja jest widoczna na stronie i w oknach projektów.
-- Kierunek obrazów: naturalistyczny europejski ogród z trawami i kamienną ścieżką w porannym świetle; kameralny dziedziniec z drzewem i kamiennym tarasem; ogród bylinowy na skraju lasu w ciepłym świetle.
-- Teksty PL/EN w `dist/app.js`. Przełącznik pamięta wybór języka lokalnie.
-- Brief pobiera się na urządzenie. Brak wysyłania danych i backendu. Właściwe dane kontaktowe i docelowe portfolio wymagają materiałów właściciela.
-- Font DM Sans z Google Fonts, krój szeryfowy z systemu. Strona działa również bez zewnętrznego fontu.
+- Oryginalne logo użytkownika w PNG.
+- Włoski ogród wygenerowany przez wbudowane ImageGen. Brief: fotorealistyczny toskański ogród, cyprysy, oliwki, niskie strzyżone żywopłoty, żwirowa ścieżka, kamienna willa i miękkie popołudniowe światło, kadr 16:9 bez tekstu.
+- Pozostałe dwa obrazy koncepcyjne z poprzedniej wersji: naturalistyczny ogród przy lesie i kameralny dziedziniec. Wszystkie ogrody oraz miasta są materiałem demonstracyjnym, nie portfolio zrealizowanych prac. Sekcja oznaczona jako koncepcje.
+- Dokładne rodziny rozpoznane na normcph.com: Euclid Circular B Regular i Adobe Caslon Pro. CSS używa ich lokalnie, gdy są zainstalowane. Do identycznego renderowania na wszystkich urządzeniach potrzebne są własne licencjonowane webfonty lub kit Adobe. Nie skopiowano ograniczonych domenowo fontów referencji. Aktualne zamienniki: Jost / Libre Caslon Text. Bez kursywy.
+- Białe znaki Facebook / Instagram są dekoracyjne do czasu dostarczenia adresów profili.
+- Kontakt otwiera zachowany brief pobierany jako plik. Dane nie są wysyłane.
 
 ## Publikacja
 
-GitHub Pages: https://jakubskrzypiec.github.io/TERREN/
+https://jakubskrzypiec.github.io/TERREN/
 
-Workflow `.github/workflows/pages.yml` publikuje katalog `dist/` po każdym pushu do `main`. Można też uruchomić go ręcznie w GitHub Actions.
-
-Statyczny katalog `dist` można udostępnić na dowolnym hostingu statycznym. `.openai/hosting.json` identyfikuje prywatny podgląd Sites.
+Workflow `.github/workflows/pages.yml` publikuje `dist/` po pushu do `main`. Prywatny podgląd Sites jest zapisany w `.openai/hosting.json`.
