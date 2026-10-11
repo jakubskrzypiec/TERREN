@@ -31,3 +31,12 @@ Workflow `.github/workflows/pages.yml` publikuje `dist/` po pushu do `main`. Pry
 
 Sprawdzono składnię JavaScript, kompletność PL/EN, kotwice, dostępność plików obrazów i logikę przesuwania pięciu slajdów w obu kierunkach, w tym zawijanie i tryb ograniczonego ruchu. Wizualna kontrola w przeglądarce była zablokowana przez automatyczny przegląd uprawnień z powodu limitu użycia.
 
+
+## Wersja 4
+
+Uproszczone studio z małym nagłówkiem i tekstem przy dolnej krawędzi; robocze dane fikcyjnej marki: Warszawa, 2018. Oferta jako cztery pełnej szerokości poziome pasy. Nowy otwarty kadr wody z animacją odbić przez filtr SVG, przyciskiem zatrzymania oraz ograniczeniem ruchu zgodnym z preferencjami urządzenia. Nie jest to nagranie wideo. Podejście w trzech krótkich zdaniach, FAQ wyśrodkowane, zwykły formularz na białej sekcji i czarna stopka.
+
+Formularz demonstracyjny zgodnie z poleceniem właściciela: nie wysyła ani nie zapisuje danych. Nie zawiera aktywnego adresu odbiorcy. Wszystkie treści dostępne w PL/EN. Kontrola kodu obejmuje brak żądań sieciowych formularza, kompletność tłumaczeń i istniejącą logikę karuzeli. Nowy układ nie był sprawdzony wizualnie w przeglądarce.
+
+Prompt nowego obrazu, ImageGen: włoski ogród, duża pusta tafla wody w dolnych 60% kadru, cyprysy i oliwki przy górnej krawędzi, ciepły kamienny pawilon, naturalne popołudniowe światło, bez ludzi i tekstu. Plik: dist/assets/water-garden.jpg.
+
