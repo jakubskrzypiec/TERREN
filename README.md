@@ -23,4 +23,8 @@ Otwórz http://127.0.0.1:4173. Gotowe pliki strony znajdują się w `dist/`.
 
 ## Publikacja
 
+GitHub Pages: https://jakubskrzypiec.github.io/TERREN/
+
+Workflow `.github/workflows/pages.yml` publikuje katalog `dist/` po każdym pushu do `main`. Można też uruchomić go ręcznie w GitHub Actions.
+
 Statyczny katalog `dist` można udostępnić na dowolnym hostingu statycznym. `.openai/hosting.json` identyfikuje prywatny podgląd Sites.
